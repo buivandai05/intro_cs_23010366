@@ -1,0 +1,2007 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d083c88a",
+   "metadata": {},
+   "source": [
+    "# phép cộng"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "74cfbf06",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1+2+6"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eb1c792d",
+   "metadata": {},
+   "source": [
+    "# phép trừ "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e0b47617",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-4"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "9-5-8"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a977c58",
+   "metadata": {},
+   "source": [
+    "# phép nhân"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "47bcec44",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3 * 5"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7afabd2c",
+   "metadata": {},
+   "source": [
+    "# phép chia"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "77aaad28",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.0"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "9 / 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "019a956b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "round(10/3)\n",
+    "       "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "8adc3e85",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "? round"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "47f31b05",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5 == 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "c18d6ff5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 == 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "190aae5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 != 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "d25abd17",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 > 2\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "92e08a3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2 > 1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b11c21cc",
+   "metadata": {},
+   "source": [
+    "# Phép chia lấy phần nguyên "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "e4647d91",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "9 // 2\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d7530551",
+   "metadata": {},
+   "source": [
+    "# Phép chia lấy phần dư "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "765200c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "9 % 2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d2500a2",
+   "metadata": {},
+   "source": [
+    "# Lũy thừa "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "1d4d3782",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2 ** 3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4ed57cf1",
+   "metadata": {},
+   "source": [
+    "## Strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "b8a13081",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Hello!'"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"Hello!\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6877d1e9",
+   "metadata": {},
+   "source": [
+    "# Strings operators\n",
+    "##.Concatenation: +\n",
+    "##.Mutilplication:*"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "05a66acd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hiThere'"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hi\" + \"There\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "6eb54f04",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hahahahahahahahahahahahahahahahahahahahahahahahahahahaha'"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"ha\" * 28"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "096add06",
+   "metadata": {},
+   "source": [
+    "# Strings index\n",
+    "## Rules\n",
+    "##. Indexes start at 0\n",
+    "##. Spaces inside the strings are counted"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "b825703c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello'"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"h\"+\"e\"+\"l\"+\"l\"+\"o\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "e13f4dde",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'h'"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hello\" [0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "8cdafc21",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'l'"
+      ]
+     },
+     "execution_count": 35,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hello\" [3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "1bb182c3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Strings functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "a64037f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'BÙI ĐẠI'"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"bùi đại\".upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "077d4ba8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'bùi đại'"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"BÙI ĐẠI\".lower()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ac5621e5",
+   "metadata": {},
+   "source": [
+    "# Variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "bb9b0d9f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=14*14"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "63aba237",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "196\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "de4af54a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=120"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "8446aadc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "120\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "fce89993",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23520\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a*b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "888b4d82",
+   "metadata": {},
+   "source": [
+    "# Type of data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "77e4bd07",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"hello\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "d09131cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "a7dd58a7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "4e419084",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "9b882fa2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = 2.9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "61d82861",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "fd68f87a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Booleans"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "95a23e16",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "97c11ec9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "False "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4264f5de",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "1==1 and 2==2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "40c33a7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True and False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "d4f4344d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "True and True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "107d1fe1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"test\" == \"tests\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "436803d3",
+   "metadata": {},
+   "source": [
+    "# Lists\n",
+    "###Danh sách là một cuỗi các đối tượng (objects)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "75af61f3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fruit = [\"apple\",\"banana\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "0cda93b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(fruit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "95179fa6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "numbers = [2,3,4,5,6]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "9241cf13",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(numbers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "126b9489",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ls = [1,2,\"banana\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "3521a94b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(ls)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "83d296de",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'apple'"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fruit[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "f8cea347",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'banana'"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ls[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "63d2dca2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "colors=[\"red\",\"blue\",\"black\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "ddcaee2b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(colors)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "127e9bd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'black'"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "colors[2]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d3ca96af",
+   "metadata": {},
+   "source": [
+    "# Môtj hàm phương/phương thức cho list\n",
+    "##Silcing:lấy ra danh sách con ls[begin:end:step]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "f5bf4761",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lst=[12,20,30,40,50]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "25f84371",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[12]"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst[0:3:4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "ac381636",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[50, 40, 30, 20, 12]"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst[::-1]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fdc427c3",
+   "metadata": {},
+   "source": [
+    "#Insert\n",
+    "lst=[1,3,4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "27782314",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 3, 4]"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "48a0fa19",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lst.insert(1,9)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "e9d39dee",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 3, 4]"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0502421b",
+   "metadata": {},
+   "source": [
+    "#append: thêm vào chuỗi ds lst.append(11)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "313e0f9e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 3, 4]"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "607cb516",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lst.append(8)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "541715b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 3, 4, 8]"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b64d4acf",
+   "metadata": {},
+   "source": [
+    "#Remove:xóa giá trị ddầu tiên cùa lst.remove"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "a082abc1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 3, 4, 8]"
+      ]
+     },
+     "execution_count": 94,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "d41f3947",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lst.remove(4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "bf5b532a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 3, 8]"
+      ]
+     },
+     "execution_count": 96,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "5a530bdf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "del lst[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "6e0dda58",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 8]"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "340355b6",
+   "metadata": {},
+   "source": [
+    "#sort:sắp xếp ds lst.sort()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "f02f9576",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 9, 8]"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lst"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef34325a",
+   "metadata": {},
+   "source": [
+    "# Danh sách đa chiều (Ma trận ds 2 chiều)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "81fbf71c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "matrix = [\n",
+    "    [1, 2, 3],\n",
+    "    [3, 4, 5],\n",
+    "    [0, 3, 1]\n",
+    "]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "ae212429",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[[1, 2, 3], [3, 4, 5], [0, 3, 1]]"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "matrix"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e7bdf40d",
+   "metadata": {},
+   "source": [
+    "# biểu thức điều kiện vòng lặp \n",
+    "##if Dtatement"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1faf339b",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "017057da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tên bạn làbùi văn đại\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"tên bạn là\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "eede0eb2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Bye bùi văn đại\n"
+     ]
+    }
+   ],
+   "source": [
+    "if name == \"camlee\":\n",
+    "    print(\"hi camlee\")\n",
+    "elif name == \"le\":\n",
+    "    print(\"hi le\")\n",
+    "else:\n",
+    "    print(\"Bye\",name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7b2088e8",
+   "metadata": {},
+   "source": [
+    "# Loops(vongf lặp)\n",
+    "##. Couting loops (lặp đếm )\n",
+    "##. Conditional loops (lặp điều kiện)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "f2821ed3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "số mới là 2\n",
+      "số mới là 3\n",
+      "số mới là 4\n",
+      "số mới là 5\n",
+      "số mới là 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "#conuditional loops-while\n",
+    "for mynum in [1, 2, 3, 4, 5]:\n",
+    "    newnum = mynum + 1\n",
+    "    print(\"số mới là\", newnum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "6ee8f612",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1700571123.py, line 5)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn [110], line 5\u001b[0;36m\u001b[0m\n\u001b[0;31m    if s ==\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "while True:\n",
+    "    a = int(input(\"nhập vào một số :\"))\n",
+    "    print(\"giá trị số bạn nhập là\",a)\n",
+    "    s=input(\"bạn có muốn tiếp tục không?(C/K):\")\n",
+    "    if s ==\n",
+    "    print(\"bye bye!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1b2acf46",
+   "metadata": {},
+   "source": [
+    "# Functions (hàm)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "73de2cdf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def say_hello():\n",
+    "    print(\"hello world!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "1a59e12c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "say_hello()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8030e35",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# có tham số \n",
+    "def say_hello(myname):\n",
+    "    print(\"hello\", myname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "8c3ee214",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello dại\n"
+     ]
+    }
+   ],
+   "source": [
+    "say_hello(\"dại\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8254add7",
+   "metadata": {},
+   "source": [
+    "# BÀI TẬP\n",
+    "## viết một hàm có tham số là 2 số,in ra kết quả là tích của 2 số đó."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "197012ac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def tich(a,b):\n",
+    "    c=a*b\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "066aa66f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(4,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "96c6eaa1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(3,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "799302cb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Functions:Output(giá trị trả về của hàm)\n",
+    "##sd return"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "e8307128",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(2,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "8b8eb07b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "kq=tich(2,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "c88ec0a8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def tich(a,b):\n",
+    "    return a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "9e0c4883",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 127,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tich(2,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "f645df43",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kq"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "ac7cf612",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def hello_there():\n",
+    "    print (\"type your name:\")\n",
+    "    name = input()\n",
+    "    print(\"hi\", name, \"how are you\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "f9650bf7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "type your name:\n",
+      "đại\n",
+      "hi đại how are you\n"
+     ]
+    }
+   ],
+   "source": [
+    "hello_there()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5502045a",
+   "metadata": {},
+   "source": [
+    "# BÀI TẬP:\n",
+    "##Viết một hàm :kiểm tra một số là số lẻ hay số chẵn, in ra màn hình \"là số lẻ\" nếu đó là số lẻ, \"là số chẵn\"nếu đó là số chăn"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
+   "id": "23e91fb2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def checknb(a):\n",
+    "    if a % 2 == 0:\n",
+    "        print(\"là số chẵn\")\n",
+    "    else:\n",
+    "        print(\"là số lẻ\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 136,
+   "id": "b83bbd88",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "là số chẵn\n"
+     ]
+    }
+   ],
+   "source": [
+    "checknb(4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 137,
+   "id": "6d4b8be0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "là số lẻ\n"
+     ]
+    }
+   ],
+   "source": [
+    "checknb(5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1ff6a9ff",
+   "metadata": {},
+   "source": [
+    "# Bài tập:\n",
+    "## viết ra một hàm cso thâm số là hai số,in ra kết quả là tích của 2 số đó."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "71ab4abc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def tich(a,b):\n",
+    "    c=a*b\n",
+    "    print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "bf7e3ed2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(4,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 141,
+   "id": "28e9dcdc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(1000000000,0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 142,
+   "id": "37e0e2b5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Functions:Output(giá trị trả về của hàm)\n",
+    "## sd return"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 143,
+   "id": "459abd6f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "tich(2,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 144,
+   "id": "69cde777",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "kq=tich(2,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 145,
+   "id": "72df7c35",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def tich(a,b):\n",
+    "    return a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 146,
+   "id": "3e92bb57",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 146,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tich(2,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 147,
+   "id": "31278539",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def hello_there():\n",
+    "    print (\"type your name:\")\n",
+    "    name = input()\n",
+    "    print(\"hi\", name, \"how are you\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 149,
+   "id": "bc377ec0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "type your name:\n",
+      "bùi đại nhé\n",
+      "hi bùi đại nhé how are you\n"
+     ]
+    }
+   ],
+   "source": [
+    "hello_there()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e6522520",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
